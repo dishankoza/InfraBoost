@@ -1,0 +1,11 @@
+{
+  "name": "quikcloud",
+  "private": true,
+  "scripts": {
+    "dev:build": "docker-compose up --build",
+    "dev": "docker-compose up"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
